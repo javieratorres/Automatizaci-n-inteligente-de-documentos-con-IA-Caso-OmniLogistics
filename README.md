@@ -2,7 +2,7 @@
 
 Proyecto del **Bootcamp Construcción de Agentes IA y Automatización de Tareas** (Skillnest y Banco de Chile).
 
-**Autor/a:** [Nombre y Apellido]
+**Autores:** Javiera Torres, Michille Taffo, Matías Orgeta y Neil Meza
 
 ## Descripción
 
