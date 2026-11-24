@@ -1,4 +1,4 @@
-# Automatización inteligente de documentos: OmniLogistics (Make) y laboratorio n8n
+# Automatización inteligente de documentos: OmniLogistics (Make)
 
 Proyecto del **Bootcamp Construcción de Agentes IA y Automatización de Tareas** (Skillnest y Banco de Chile).
 
@@ -13,7 +13,6 @@ Sistema que lee los correos de una bandeja de operaciones, extrae con IA los dat
 | Archivo | Descripción |
 | --- | --- |
 | `corpomnilogistics.blueprint.json` | Blueprint exportado del escenario de Make |
-| `compose.yaml` | Docker Compose del laboratorio de n8n (PostgreSQL, n8n y API de laboratorio) |
 | `.env.ejemplo` | Plantilla de variables de entorno (el `.env` real no se sube al repositorio) |
 | `lab-calbuco.json` | Workflow de n8n que clasifica documentos de prueba |
 
@@ -57,7 +56,7 @@ Sistema que lee los correos de una bandeja de operaciones, extrae con IA los dat
 | Factura válida mayor a 10000 | Fila «Pendiente» y alerta a Gerencia |
 | Documento sin RUT ni monto legibles | Correo de reenvío y sin fila en Sheets |
 
-**Video de demostración:** [pegar aquí el enlace]
+**Video de demostración:** (https://drive.google.com/file/d/1_GYB0DgNNl-WnxUS_nX5doCwSsBeKuCG/view?usp=drive_link)
 
 ## Parte 2: Laboratorio n8n en Docker
 
@@ -82,4 +81,4 @@ Instancia local de n8n con PostgreSQL y almacenamiento persistente, y un workflo
 ## Seguridad
 
 - No se suben contraseñas, API Keys ni el archivo `.env`.
-- Las credenciales de Make y de n8n se gestionan fuera de los archivos exportados.
+- Las credenciales de Make se gestionan fuera de los archivos exportados.
